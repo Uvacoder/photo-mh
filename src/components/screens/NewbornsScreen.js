@@ -1,9 +1,12 @@
 import React from 'react'
+import Main from '../newborns/Main'
+import Contact from '../newborns/Contact'
 
 const NewbornsScreen = () => {
   return (
     <div>
-      <h1>Newborns</h1>
+      <Main />
+      <Contact />
     </div>
   )
 }

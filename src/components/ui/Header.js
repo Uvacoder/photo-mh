@@ -1,5 +1,6 @@
 import React from 'react'
 import { Navbar, Image, Container, Row, Col, Nav } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -9,7 +10,9 @@ const Header = () => {
           <Container>
             <Row>
               <Col className='justify-content-center'>
-                <Image src='img/mh-logo.png' />
+                <Link to='/'>
+                  <Image src='img/mh-logo.png' />
+                </Link>
               </Col>
             </Row>
           </Container>
