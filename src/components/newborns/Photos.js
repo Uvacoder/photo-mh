@@ -86,6 +86,13 @@ const IMAGES = [
     thumbnailHeight: 212,
     caption: 'Baby 2',
   },
+  // {
+  //   src: 'img/baby12.jpg',
+  //   thumbnail: 'img/baby12.jpg',
+  //   thumbnailWidth: 320,
+  //   thumbnailHeight: 212,
+  //   caption: 'Baby 2',
+  // },
 ]
 
 const Photos = () => {
