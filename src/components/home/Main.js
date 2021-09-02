@@ -21,6 +21,14 @@ const Main = () => {
             </Link>
           </Col>
         </Row>
+        <br />
+        <Row>
+          <Col>
+            <Link to='/newborns'>
+              <Image src='img/newborns.jpg' roundedCircle />
+            </Link>
+          </Col>
+        </Row>
       </Container>
     </div>
   )
